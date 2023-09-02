@@ -6,7 +6,7 @@ include("includes/header.php");
     <form action="guardarEmpleado.php" method="POST">
         <div class="card card-body">
             <div class="row">
-            <div class="col-md-4 col-sm-6" >
+            <div class="col-sm-6" >
                     <div class="form-group">
                         <input type="text" name="primerNombre" class="form-control" placeholder="Primer Nombre" autofocus> <br>
                     </div>
@@ -26,7 +26,7 @@ include("includes/header.php");
                         <input type="number" name="nit" class="form-control" placeholder="Nit" autofocus> <br>
                     </div>
             </div>
-            <div class="col-md-4 col-sm-6">
+            <div class="col-sm-6">
                     <div class="form-group">
                         <input type="text" name="direccion" class="form-control" placeholder="Direccion" autofocus> <br>
                     </div>
